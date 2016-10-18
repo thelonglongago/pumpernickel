@@ -1,0 +1,21 @@
+Pages required
+
+Enter call
+View open calls
+Search field (basic/advanced)
+User settings
+
+
+To do list
+
+Create basic app structure
+
+    - mock up skeleton pages
+    - bootstrap basic enter call form
+
+Establish DB
+    - Save new calls
+    - Search DB, return search results based off user arguements
+    - View open calls
+    
+    

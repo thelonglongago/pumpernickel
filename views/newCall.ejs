@@ -7,17 +7,29 @@
 <body>
    <% include ../views/partials/nav %>
 
-         <form action="newCall" method="POST">
-             <label for="name">Name:</label>
-             <input type="text" name="name" placeholder="name">
-             <br>
-             <label for="email">Email:</label>
-             <input type="text" name="emailAddress" placeholder="Email Address">
-             <br>
-             <button type="Submit">Submit</button>
-         </form>
+    <div class="form-group" action="newCall" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" name="emailAddress" placeholder="Email Address">
+        <br>
+        <label for="callType">Call Type:</label>
+        <input type="text" name="emailAddress" placeholder="Email Address">
+        <br>
+        <label for="sel1">Select list:</label>
+        <select class="form-control" id="sel1" style="width:10%";>
+            <option>Add-On</option>
+            <option>Critical</option>
+            <option>Reroute</option>
+            <option>Transfer</option>
+        </select>
+        <br>
+        <button type="Submit">Submit</button>
+</div>
  
 </body>
     
     
 </html>
+

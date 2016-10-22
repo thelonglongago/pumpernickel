@@ -1,0 +1,65 @@
+body h1 {
+    background-color:pink;
+    height:100px;
+    font-size:72px;
+    
+}
+
+/* Partials */
+
+/*Nav*/
+nav {
+    width:100%;
+    background-color:lightgrey;
+    font-family:"PT-Sans";
+   font-size:18px;
+}
+
+nav ul {
+    text-align:right;
+    margin-right:5%;
+
+   
+   
+    
+}
+nav ul li { 
+    display:inline;
+    margin:10px;
+    
+     
+    
+    
+}
+
+nav ul li a {
+   
+    
+}
+
+/* Index Table styles */
+body table {
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    text-align:center;
+    
+}
+
+body table thead {
+    background-color:lightgrey;
+    font-size:18px;
+}
+
+body table td {
+    padding:10px;
+    border: 1px solid;
+}
+
+body table  tr th {
+    padding-left:50px;
+    padding-right:50px;
+    border: 1px dotted;
+}
+
+

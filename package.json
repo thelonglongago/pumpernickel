@@ -12,6 +12,7 @@
     "ejs": "^2.5.2",
     "express": "~3.2.4",
     "mongodb": "^2.2.10",
+    "mongoose": "^4.6.4",
     "nodemon": "^1.10.2",
     "socket.io": "~0.9.14"
   }
